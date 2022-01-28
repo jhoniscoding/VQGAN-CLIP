@@ -70,7 +70,7 @@ class NFTBuilder:
 
 
 def main():
-    nft_paths = [["zombie.png"]*2]*2
+    nft_paths = [["./outputs/1.png", "./outputs/2.png"], ["./outputs/3.png", "./outputs/4.png"]]
     trans = [
         [NFTBuilder.RES_TRANS, f"{NFTBuilder.BW_TRANS},{NFTBuilder.FL_TRANS}"],
         [NFTBuilder.BW_TRANS, NFTBuilder.FL_TRANS]

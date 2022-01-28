@@ -21,7 +21,7 @@ CHART="chart.png"
 
 function generate {
     echo "Generating $1 NFT $2..."
-    python generate.py -o ./outputs/$2 -i $NUM_IT -se $NUM_IT -ii $PROJECT_PATH/samples/$1 -cutm original -cuts 128 -p "$TEXT" -s $SIZE $SIZE
+    python generate.py -o ./outputs/$2.png -i $NUM_IT -se $NUM_IT -ii $PROJECT_PATH/samples/$1 -cutm original -cuts 128 -p "$TEXT" -s $SIZE $SIZE
     echo "Generating NFT from $1... Done"
 }
 
