@@ -9,6 +9,7 @@ checkpoints/
 
 # Editor
 .vscode/
+*.idea*
 
 # Operations
 outputs/
@@ -17,3 +18,7 @@ steps/
 # Files
 output.png
 steps.mp4
+
+# ENV
+.python-version
+poetry.lock

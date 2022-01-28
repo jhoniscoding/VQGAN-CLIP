@@ -9,8 +9,6 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fda = "^0.2.7"
-fda-toolkit = "^0.3.6"
 coverage = "4.5.2"
 torch = "^1.10.1"
 torchvision = "^0.11.2"
@@ -28,15 +26,7 @@ torch-optimizer = "^0.3.0"
 ipython = "^8.0.1"
 taming-transformers = "^0.0.1"
 clip = {git = "https://github.com/openai/CLIP.git", rev = "main"}
-
-[tool.poetry.dev-dependencies]
-pytest = "5.0.0"
-pytest-cov = "2.6.0"
-pytest-mock = "^3.6.1"
-
-[[tool.poetry.source]]
-name = "meli"
-url = "https://pypi.artifacts.furycloud.io/simple/"
+Pillow = "^9.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
