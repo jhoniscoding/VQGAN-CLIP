@@ -79,7 +79,7 @@ def main():
     builder = NFTBuilder(nfts)
     builder.transform(trans)
     result = builder.build()
-    result.show()
+    result.save("./outputs/nft.png")
 
 
 if __name__ == '__main__':
